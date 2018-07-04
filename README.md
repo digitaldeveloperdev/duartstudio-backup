@@ -1,5 +1,3 @@
-This script will make a backup of drupal 8 website directory, database file and send it to Dropbox with Rclone.
-
 # Project Title
 
 Script to backup Drupal 8 website
