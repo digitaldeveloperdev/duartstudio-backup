@@ -12,7 +12,7 @@ Install tar and Rclone to use this script.
 
 ## Author
 
-* **Duarte Cancela** - *Initial work* - [Duarte Cancela](https://github.com/duartecancela
+* **Duarte Cancela** - [Duarte Cancela](https://github.com/duartecancela
 
 ## License
 
