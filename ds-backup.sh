@@ -6,17 +6,17 @@
 #date            :2018-07-03
 #version         :0.1    
 #usage		 :bash ds-backup.sh
-#notes           :Install Zip and Rclone to use this script.
+#notes           :Install tar and Rclone to use this script.
 #bash_version    :4.4.19(1)-release
 #==============================================================================
 
-#Go to www directory.
+# Go to www directory.
 cd /var/www/
 
-#Compress Drupal website directory and create a backup directory.
+# Compress Drupal website directory and create a backup directory.
 sudo tar -zcvf duartstudio_`date +%d-%m-%Y`.tar.gz duartstudio.com && sudo mkdir backup_`date +%d-%m-%Y`
 
-#Move compressed Drupal 8 directory to backup directory.
+# Move compressed Drupal 8 directory to backup directory.
 sudo mv duartstudio_`date +%d-%m-%Y`.tar.gz ./backup_`date +%d-%m-%Y`
 
 # Enter inside Drupal 8 directory.
@@ -29,7 +29,7 @@ mv duartstudio_drupal8.sql ./backup_`date +%d-%m-%Y`
 # Compress the backup directory.
 sudo tar -zcvf backup_`date +%d-%m-%Y`.tar.gz backup_`date +%d-%m-%Y` &&
 
-#Backup directory file to Dropbox with Rclone.
+# Backup directory file.tar.gz to Dropbox with Rclone.
 sudo rclone copy backup_`date +%d-%m-%Y`.tar.gz duartstudio:duartstudio-backup &&
 
 # Delete backup directory
