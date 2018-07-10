@@ -7,7 +7,7 @@
 #version         :0.1
 #usage		 :bash ds-backup.sh
 #notes           :Install tar and Rclone to use this script.
-#bash_version    :1.0.0-release
+#bash_version    :1.0.0-release.
 #==============================================================================
 
 # Go to www directory.
