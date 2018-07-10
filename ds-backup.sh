@@ -4,7 +4,7 @@
 #                 directory, database file and send it to Dropbox with Rlone.
 #author		 :Duarte Cancela
 #date            :2018-07-03
-#version         :0.1
+#version         :0.1.1
 #usage		 :bash ds-backup.sh
 #notes           :Install tar and Rclone to use this script.
 #bash_version    :1.0.0-release.
