@@ -6,7 +6,7 @@
 #date            :2018-07-03
 #version         :0.1.1
 #usage		     :bash ds-backup.sh
-#notes           :Install tar and Rclone to use this script.
+#notes           :Install tar, drush and Rclone to use this script.
 #bash_version    :1.0.0-release.
 #==============================================================================
 
