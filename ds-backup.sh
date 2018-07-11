@@ -1,11 +1,11 @@
 #!/bin/bash -
 #title           :ds-backup.sh
 #description     :This script will make a backup of drupal 8 website
-#                 directory, database file and send it to Dropbox with Rlone.
-#author		     :Duarte Cancela
+#                directory, database file and send it to Dropbox with Rlone.
+#author          :Duarte Cancela
 #date            :2018-07-03
 #version         :0.1.1
-#usage		     :bash ds-backup.sh
+#usage           :bash ds-backup.sh
 #notes           :Install tar, drush and Rclone to use this script.
 #bash_version    :1.0.0-release.
 #==============================================================================
